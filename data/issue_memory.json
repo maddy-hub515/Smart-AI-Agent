@@ -1,0 +1,208 @@
+[
+  {
+    "id": "7d81a4d0-cb5b-4953-a937-5b3dda2c5eb2",
+    "issue": "What is address",
+    "solution": "A local variable @PostCode is declared and set (e.g., 'N12 5ES').  A table variable @Address is defined to hold temporary address results with detailed fields (e.g., UDPRN, Postcode, Building Name, Organisation Name, etc.). @PostTownList, which is used later for scoring or assembling the matched address.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "6b18cff6-d33e-42eb-8769-6304934b13f5",
+    "issue": "How they are checking the FlatNo?",
+    "solution": "Summary: Searches for flat range matches considering FlatNo and BuildingNo using a helper function. If results found, returns address details.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "8a0b6c64-2d33-4da1-9c88-4c2b63f341cf",
+    "issue": "How they are checking the BuildingName",
+    "solution": "They are checking the BuildingName using a transformed building number for final matching attempts.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "a6702f1f-7d08-445f-9032-6dd96e75041d",
+    "issue": "What is the final output?",
+    "solution": "Summary \u2013 @AddressData Table This output displays the result of inserting address records based on the input postcode (NP25 5ES) into the @AddressData table.  Total Records: 16 address entries  Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode: Final address tokens used for matching: 1. FLAT 2 2. 9 ST. THOMAS SQUARE 3. MONMOUTH 4. GWENT 5. NP25 5ES After Filtering Out Postcode",
+    "feedback": "Pending"
+  },
+  {
+    "id": "368bcb6b-1293-4676-97ff-fb10b85e8697",
+    "issue": "How to reset a password? You can reset a password by clicking on 'Forgot Password' and following the steps.",
+    "solution": "Click on 'Forgot Password' and follow the steps.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "92e0a3d8-9bf5-46d7-b5f3-df11813c782f",
+    "issue": "Unable to set new address as primary address",
+    "solution": "Unable to set new address as primary address",
+    "feedback": "Pending"
+  },
+  {
+    "id": "389d7a48-d7e3-4d53-81d0-a8171f77afe4",
+    "issue": "We have been unable to set the new address as primary address on the 2 cases above, I have tried moving stages but this still doesn\u2019t allow me to do it. Please can this be done Please mark the current primary address as 'Invalid' to designate the second address as the new primary address.",
+    "solution": "We have been unable to set the new address as primary address on the 2 cases above, I have tried moving stages but this still doesn\u2019t allow me to do it. Please mark the current primary address as 'Invalid' to designate the second address as the new primary address.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "b8939377-3035-4ac7-81f5-ae1526362888",
+    "issue": "Issue : Unable to set new address as primary addressWe have been unable to set the new address as primary address on the 2 cases above, I have tried moving stages but this still doesn\u2019t allow me to do it. Please can this be done",
+    "solution": "We have been unable to set the new address as primary address on the 2 cases above, I have tried moving stages but this still doesn\u2019t allow me to do it. Please can this be done Helpful",
+    "feedback": "Pending"
+  },
+  {
+    "id": "a53fad1f-c2df-4645-a100-709634c31e3c",
+    "issue": "Issue: Unable to set new address as primary address We have been unable to set the new address as primary address on the 2 cases above, I have tried moving stages but this still doesn\u2019t allow me to do it. Please can this be done",
+    "solution": "Summary: We have been unable to set the new address as primary address on the 2 cases above, I have tried moving stages but this still doesn\u2019t allow me to do it. Please can this be done Helpful",
+    "feedback": "Pending"
+  },
+  {
+    "id": "8f6c77c2-4fe6-464b-8354-4bf833c3843d",
+    "issue": "Solution: Please mark the current primary address as 'Invalid' to designate the second address as the new primary address.",
+    "solution": "                                                                                                                                                                                                                                                               ",
+    "feedback": "Pending"
+  },
+  {
+    "id": "9d5bb8d5-1e2e-49ff-90a9-e864580a6957",
+    "issue": "How to solve the address change issue?",
+    "solution": "Go to https://www.addresssplit.com in a web browser and click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click on the address that you want to change. Click",
+    "feedback": "Pending"
+  },
+  {
+    "id": "4c7e0a93-c237-4ab5-b596-aa1af63857fa",
+    "issue": "exit",
+    "solution": "Summary: Returns a list of all the entries that have been rechecked.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "5b098484-15a4-4704-89d1-ca3b6140d55f",
+    "issue": "jjjj",
+    "solution": "jjjj",
+    "feedback": "Pending"
+  },
+  {
+    "id": "4e85aa77-7363-4f79-99ac-8766cb114eb8",
+    "issue": "What is PostCode",
+    "solution": " @PostCode: 'NP25 5ES' (from parameter \u2013 input postcode to match address)  @AddressData: Temporary address list populated from earlier step, containing multiple address records for given postcode.  @Splitter: Delimiter to split address values \u2013 typically a comma , or space ' '. Output of Cleansing & Token Split: @PostTownList, which is used later for scoring or assembling the matched address.",
+    "feedback": "Pending"
+  },
+  {
+    "id": "dba55e1c-3cf2-4e9e-8c94-1195ba76c280",
+    "issue": "I am trying to put through a direct payment for this case but as the client balance is now showing as zero, it will not let me add another direct payment. We need to clawback \u00a375 compliance fee from this client. Please could you amend? ",
+    "solution": "Outputs: I am trying to put through a direct payment for this case but as the client balance is now showing as zero, it will not let me add another direct payment. We need to clawback \u00a375 compliance fee from this client. Please could you amend?",
+    "feedback": "Pending"
+  },
+  {
+    "id": "3fc0f3a8-5136-4cf8-8420-c92604badd56",
+    "issue": "I am trying to put through a direct payment for this case but as the client balance is now showing as zero, it will not let me add another direct payment. We need to clawback \u00a375 compliance fee from this client. Please could you amend? Can we remove the Direct payment of \u00a395.00 from case 'M123236' so that the case will move to 'unpaid'? After that, please process it accordingly.",
+    "solution": "Summary: I am trying to put through a direct payment for this case but as the client balance is now showing as zero, it will not let me add another direct payment. We need to clawback \u00a375 compliance fee from this client. Please could you amend?",
+    "feedback": "Pending"
+  },
+  {
+    "id": "3e7ccac4-7a38-4547-89ac-cf154adcaa62",
+    "issue": "How i fix the direct payment issue",
+    "solution": "Summary: Fix the direct payment issue",
+    "feedback": "Pending"
+  },
+  {
+    "id": "0c901f3b-77b3-4ccf-864d-6d1ef2a92e77",
+    "issue": "when i execute the exec usp_AddressSearch '3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','SO51 6DX',',' why i am not getting the output",
+    "solution": "'3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','3, Wellow Way Scallows Lane,West Wellow,Ro",
+    "category": "General",
+    "source": "User",
+    "feedback": "Pending"
+  },
+  {
+    "id": "0eef6f8f-22df-4e8d-8124-fa57c769096e",
+    "issue": "I can't able to return the case",
+    "solution": "If you want to return the case the case must be fully paid first",
+    "category": "ase Status",
+    "source": "User",
+    "feedback": "Pending"
+  },
+  {
+    "id": "0fdf3b79-103f-441b-857a-b02e76dded6a",
+    "issue": "Why the case was not returning",
+    "solution": "Output: I have a problem with a database that has a lot of rows and columns. When I try to update the database, I get the following error: The database has a lot of rows and columns. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error: The database has a lot of columns and rows. When I try to update the database, I get the following error:",
+    "category": "General",
+    "source": "User",
+    "feedback": "Pending"
+  },
+  {
+    "id": "9cd83e57-617a-4374-b22a-a956637efbb5",
+    "issue": "Why is the API returning 401 Unauthorized even though I provided a token?",
+    "solution": "From the provided context, it appears that the API is designed to process an address and match it against entries in a PostTown reference table using certain steps. The token-based authorization doesn't seem to be directly involved in this process.\n\nThe issue you are experiencing (401 Unauthorized) might not be related to the cleansing and token split logic, but rather with the authentication mechanism. Here are a few possible reasons for the 401 response:\n\n1. Incorrect or expired access token: Ensure that the provided token is valid and has the necessary permissions to access the API endpoint you are trying to reach. If the token is expired, you'll need to refresh it before making subsequent requests.\n\n2. Incorrect header format: The API might be expecting a specific header format for authentication. For example, you should use 'Authorization: Bearer <access_token>' in your HTTP request headers.\n\n3. Misconfiguration of the API or server: There could be an issue with the API's configuration that prevents it from properly validating tokens.\n\n4. Incorrect endpoint or resource being accessed: If you are trying to access a protected resource that requires authentication, and the endpoint URL is incorrect or inaccessible, the API will return a 401 error.\n\n5. Middleware or global filters: Check if there's any middleware or global filter on your server that may be causing an authorization issue. These components can check for valid tokens, modify requests, or even deny access to certain resources based on user roles or permissions.\n\nTo diagnose the problem further, you can:\n\n- Inspect the HTTP request and response headers and body to see if there's any additional information about the error.\n- Enable detailed logging in your application to help identify the root cause of the issue.\n- Test the API using tools like Postman or curl to confirm that the token is being passed correctly and the endpoint is functioning as expected.\n- Verify that you have the correct permissions for the requested resource, including any required roles or scopes.",
+    "category": "General",
+    "source": "User",
+    "feedback": "Pending"
+  },
+  {
+    "id": "54ab5265-d1ef-45f4-a3d4-840966f0ae6a",
+    "issue": "when i execute the exec usp_AddressSearch '3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','SO51 6DX',',' why i am not getting the output it is returning empty",
+    "solution": "Based on the provided context, it appears that the stored procedure [usp_AddressSearch] expects three main inputs: the full address string, the postcode, and a delimiter for splitting the address components. When you executed `exec usp_AddressSearch '3, Wellow Way Scallows Lane,West Wellow,Romsey SO51 6DX','SO51 6DX',','`, it seems that the issue might be due to the absence of the third parameter (delimiter).\n\nIn this case, the stored procedure is trying to split the address string using the default delimiter (a comma), which does not appear to be appropriate for the provided address. Since the correct delimiter might not be present in the address string, the splitting operation fails and thus, no results are returned.\n\nTo resolve this issue, you can either provide a proper delimiter if one exists in your address string or modify the stored procedure to handle multiple delimiters or missing delimiters more effectively.\n\nIf the provided context does not contain any relevant information, it would be \"No matching logic found in context.\"",
+    "category": "General",
+    "source": "User",
+    "feedback": "Pending"
+  },
+  {
+    "id": "53927eba-bca6-47d8-8fb4-18eb58279954",
+    "issue": "What is API?",
+    "solution": "A brief answer!\n\nAn Application Programming Interface (API) is a set of defined rules that enable different applications, systems, or services to communicate with each other and exchange data. It acts as an intermediary between systems, allowing them to share information and functionality without needing to know the internal details of the other system.",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4d"
+  },
+  {
+    "id": "f2d12cee-189a-4df5-83e7-bcc49ff56454",
+    "issue": "What is mean by Land?",
+    "solution": "In a general sense, \"land\" refers to the solid surface of the Earth or any other planet, including its soil, rocks, and terrain. It encompasses all natural features such as mountains, valleys, oceans, lakes, rivers, forests, deserts, and more. In a broader context, land can also include human-made structures like buildings, roads, and cities that are situated on or above the Earth's surface.",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4e"
+  },
+  {
+    "id": "f26d699e-784a-4bba-8791-abe62c5faf3f",
+    "issue": "How are you?",
+    "solution": "I'm just an AI, I don't have feelings or emotions like humans do. I exist to provide information and assist with tasks, so I don't have a personal well-being or emotional state.",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4e"
+  },
+  {
+    "id": "704df32d-871e-40ed-b8fb-45167cb1688c",
+    "issue": "What is issue in gendral?",
+    "solution": "In general, an \"issue\" refers to a problem or concern that needs to be addressed. It can also refer to a question or a matter that requires consideration or debate.\n\nSome common types of issues include:\n\n* Social issues: topics like poverty, inequality, climate change, and social justice\n* Political issues: elections, policies, laws, and government decisions\n* Economic issues: financial crises, job market trends, inflation, and trade agreements\n* Technological issues: cybersecurity threats, data privacy concerns, and technological advancements\n\nIn general, an issue is something that requires attention, discussion, and potentially a solution or resolution.",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4d"
+  },
+  {
+    "id": "101aa7bb-4f09-420d-a4a7-f56ca0351c51",
+    "issue": "Tell me about yourself?",
+    "solution": "Nice to meet you! I'm LLaMA, a large language model trained by a team of researcher at Meta AI. My primary function is to understand and respond to human input in a helpful and accurate manner. I can generate text on a wide range of topics, from science and history to entertainment and culture. I'm constantly learning and improving my abilities, so please bear with me if I make any mistakes!",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4d"
+  },
+  {
+    "id": "442b9892-2a57-4cd2-bbec-4164d1573f2a",
+    "issue": "What is Azure Devops?",
+    "solution": "Azure DevOps is a cloud-based service that provides a set of tools and services for software development, delivery, and operations. It helps teams to plan, develop, test, release, and deploy software projects more efficiently and effectively. Azure DevOps includes features such as:\n\n* Version control with Git\n* Agile project planning and tracking\n* Continuous Integration (CI) and Continuous Deployment (CD)\n* Automated testing and deployment\n* Collaboration and communication tools\n* Reporting and analytics\n\nAzure DevOps is designed to help teams work together more efficiently, reduce errors, and improve the overall quality of their software projects.",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4d"
+  },
+  {
+    "id": "452d1be3-182b-4458-bdc7-88a63b416c93",
+    "issue": "What is your name?",
+    "solution": "I don't have a personal name. I'm an AI, and my purpose is to assist and provide information to users like you!",
+    "category": "General",
+    "source": "AI",
+    "feedback": "\ud83d\udc4d"
+  },
+  {
+    "id": "09a23a4a-751e-4850-9a80-92967267f5cb",
+    "issue": "What is my name?",
+    "solution": "Madesh Ram",
+    "category": "General",
+    "source": "User",
+    "feedback": "Pending"
+  }
+]
