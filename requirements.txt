@@ -1,5 +1,5 @@
 # Core dependencies
-python-dateutil==2.9.0.post0
+python-dateutil>=2.9.0
 python-dotenv==1.1.1
 python-multipart==0.0.20
 
@@ -10,12 +10,13 @@ GitPython==3.1.45
 gradio==5.38.2
 
 # AI / Embeddings
-langchain==0.3.27
+
 faiss-cpu==1.11.0.post1
 transformers==4.54.0
 torch==2.7.1
 sentence-transformers==5.0.0
-langchain-community==0.2.14
+langchain==0.2.7
+langchain-community==0.2.7
 
 # TTS
 gTTS==2.5.3
