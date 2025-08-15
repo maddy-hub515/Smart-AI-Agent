@@ -2,6 +2,7 @@ import gradio as gr
 from memory_store import save_to_memory
 from agent import smart_agent
 from tts import speak_text_offline
+import os
 
 # Store the last result globally to give feedback later
 last_result = {"issue": "", "solution": "", "source": ""}
@@ -105,4 +106,6 @@ with gr.Blocks(title="Smart AI Agent with Voice") as demo:
         outputs=[query_input, query_output, feedback_row]
     )
     
-demo.launch()
+# Get Render's assigned port or default to 7860 locally
+port = int(os.environ.get("PORT", 7860))
+demo.launch(server_name="0.0.0.0", server_port=port)
